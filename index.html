@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfolio Nama Kamu — desainer dan developer yang membuat pengalaman digital dengan tujuan."
+    />
+    <meta name="theme-color" content="#100e16" />
+    <title>Nama Kamu — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navigasi utama">
+        <a class="brand" href="#beranda" aria-label="Nama Kamu, beranda">
+          <span class="brand-mark">n.</span>
+          <span>nama<span class="brand-muted">kamu</span></span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Buka navigasi"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a class="nav-link active" href="#beranda">Beranda</a>
+          <a class="nav-link" href="#tentang">Tentang</a>
+          <a class="nav-link" href="#proyek">Proyek</a>
+          <a class="nav-contact" href="#kontak">Hubungi saya <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="beranda">
+        <div class="hero-copy">
+          <div class="availability">
+            <span class="availability-dot"></span>
+            Terbuka untuk peluang baru
+          </div>
+          <p class="eyebrow">HALO, SAYA NAMA KAMU <span class="wave" aria-hidden="true">✳</span></p>
+          <h1>Mengubah ide<br />menjadi <span class="gradient-text">pengalaman.</span></h1>
+          <p class="hero-description">
+            Saya seorang desainer &amp; developer yang senang membuat hal-hal digital
+            terasa sederhana, berguna, dan berkesan.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyek">Lihat karya saya <span aria-hidden="true">↘</span></a>
+            <a class="button button-quiet" href="#kontak">Mari ngobrol <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-socials" aria-label="Media sosial">
+            <span>Temukan saya di</span>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Ilustrasi dekoratif berwarna ungu">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-glow"></div>
+          <div class="art-card">
+            <span class="art-card-label">DIGITAL CRAFT</span>
+            <div class="art-symbol" aria-hidden="true">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <span class="art-card-caption">Made with intention.</span>
+          </div>
+          <div class="floating-note note-top"><span>✦</span> ide jadi nyata</div>
+          <div class="floating-note note-bottom"><span class="note-pulse"></span> sedang berkarya</div>
+          <span class="art-sparkle sparkle-one" aria-hidden="true">✳</span>
+          <span class="art-sparkle sparkle-two" aria-hidden="true">✧</span>
+        </div>
+        <a class="scroll-hint" href="#tentang"><span></span> Gulir untuk mengenal saya</a>
+      </section>
+
+      <section class="about section container" id="tentang">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="eyebrow-line"></span> SEDIKIT TENTANG SAYA</p>
+          <h2>Senang membuat<br />sesuatu <span class="gradient-text">berarti.</span></h2>
+        </div>
+        <div class="about-content">
+          <p class="about-lead">
+            Saya percaya karya digital yang baik bukan hanya terlihat bagus—tetapi
+            juga membuat hidup seseorang sedikit lebih mudah.
+          </p>
+          <p class="about-copy">
+            Dengan perpaduan desain yang thoughtful dan teknologi yang tepat, saya
+            membantu mengubah tantangan menjadi pengalaman yang intuitif. Dari
+            konsep awal sampai detail terakhir, saya suka terlibat di setiap prosesnya.
+          </p>
+          <div class="skills">
+            <span>UI/UX Design</span><span>Frontend Development</span>
+            <span>Design Systems</span><span>Prototyping</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section container" id="proyek">
+        <div class="projects-heading">
+          <div class="section-heading">
+            <p class="eyebrow"><span class="eyebrow-line"></span> PILIHAN KARYA</p>
+            <h2>Yang sudah <span class="gradient-text">saya buat.</span></h2>
+          </div>
+          <p class="projects-intro">Beberapa proyek yang lahir dari rasa ingin tahu dan kolaborasi.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <a class="project-visual visual-wellness" href="#kontak" aria-label="Tanya tentang RuangSehat">
+              <div class="wellness-window">
+                <div class="window-top"><span></span><span></span><span></span><i>ruangsehat</i></div>
+                <div class="wellness-content">
+                  <span class="mini-label">YOUR SPACE TO FEEL BETTER</span>
+                  <strong>Rawat diri,<br />mulai dari sini.</strong>
+                  <span class="mini-button">Temukan ahlinya <b>↗</b></span>
+                </div>
+                <div class="wellness-orb"></div>
+              </div>
+              <span class="project-view" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-info">
+              <div><h3>RuangSehat</h3><p>Platform kesehatan mental yang terasa lebih dekat.</p></div>
+              <span class="project-year">2025</span>
+            </div>
+            <div class="project-tags"><span>Product design</span><span>Frontend</span></div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-visual visual-finance" href="#kontak" aria-label="Tanya tentang Saku">
+              <div class="finance-window">
+                <div class="finance-top"><span>saku<span>.</span></span><i>OVERVIEW&nbsp;&nbsp; ACTIVITY&nbsp;&nbsp; SETTINGS</i><b>AK</b></div>
+                <div class="finance-balance"><span>TOTAL BALANCE</span><strong>Rp 24.850.000</strong><small>↗ 12,8% bulan ini</small></div>
+                <div class="chart-bars" aria-hidden="true">
+                  <i style="--bar: 32%"></i><i style="--bar: 49%"></i><i style="--bar: 40%"></i>
+                  <i style="--bar: 69%"></i><i style="--bar: 54%"></i><i style="--bar: 82%"></i>
+                  <i style="--bar: 64%"></i><i style="--bar: 100%"></i>
+                </div>
+              </div>
+              <span class="project-view" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-info">
+              <div><h3>Saku</h3><p>Dashboard finansial personal yang simpel dan jelas.</p></div>
+              <span class="project-year">2024</span>
+            </div>
+            <div class="project-tags"><span>UX research</span><span>Web app</span></div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-visual visual-plant" href="#kontak" aria-label="Tanya tentang Tumbuh">
+              <div class="plant-poster">
+                <span class="plant-label">TUMBUH / 001</span>
+                <strong>Pelan-pelan<br />jadi hutan.</strong>
+                <span class="plant-cta">TANAMAN UNTUK SETIAP RUANG&nbsp; ↗</span>
+                <div class="plant-leaf leaf-one"></div>
+                <div class="plant-leaf leaf-two"></div>
+                <div class="plant-leaf leaf-three"></div>
+                <div class="plant-stem"></div>
+              </div>
+              <span class="project-view" aria-hidden="true">↗</span>
+            </a>
+            <div class="project-info">
+              <div><h3>Tumbuh</h3><p>Identitas digital untuk toko tanaman lokal.</p></div>
+              <span class="project-year">2024</span>
+            </div>
+            <div class="project-tags"><span>Brand identity</span><span>E-commerce</span></div>
+          </article>
+        </div>
+        <p class="project-disclaimer">Proyek ditampilkan sebagai contoh—ganti dengan karya dan tautan milikmu.</p>
+      </section>
+
+      <section class="contact-section" id="kontak">
+        <div class="contact container">
+          <p class="eyebrow"><span class="eyebrow-line"></span> ADA IDE DI KEPALA?</p>
+          <h2>Yuk, kita buat<br />sesuatu yang <span class="gradient-text">seru.</span></h2>
+          <p class="contact-copy">Punya proyek, ide, atau sekadar ingin menyapa? Kotak masuk saya selalu terbuka.</p>
+          <a class="contact-email" href="mailto:halo@namakamu.com">halo@namakamu.com <span aria-hidden="true">↗</span></a>
+          <div class="contact-bottom">
+            <span>Atau temukan saya di</span>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <a class="brand" href="#beranda"><span class="brand-mark">n.</span><span>nama<span class="brand-muted">kamu</span></span></a>
+      <p>Dibuat dengan rasa ingin tahu <span aria-label="cinta">♥</span> © <span id="current-year"></span> Nama Kamu</p>
+      <a class="back-to-top" href="#beranda">Kembali ke atas ↑</a>
+    </footer>
+    <div class="page-grain" aria-hidden="true"></div>
+  </body>
+</html>
